@@ -1,0 +1,24 @@
+#ifndef  _PROGRAM_CONFIGURATION_H
+#define  _PROGRAM_CONFIGURATION_H
+void CHECK_FOR_SORT_MODE();/*改变排序模式*/
+ void CHECK_FOR_DYNAMIC_MANAGEMENT();/*修改动态窗口*/
+ void INPUT_WINDOW_EFFCIENCY();/*输入窗口效率*/
+ void OUTPUT_ADVANCED_SETTING();/*输出高级设定*/
+ void MODIFY_ADVANCED_SETTING();/*修改高级设定*/
+ void output_configuration_data();/*输出配置信息*/
+ void output_window_data();/*输出窗口信息*/
+ void WINDOW_INITIALIZATION();/*窗口初始化*/
+ void CONFIGURATION_INITIALIZATION();/*配置文件初始化*/
+ void getMaxCustSingleLine();
+ void getMaxLines();
+ void getMaxLinelen();
+ void getMaxSeqLen();
+ int getMinTimeLen();
+ int getMaxTimeLen();
+ int getMinRestTimeLen();
+ int getMaxRestTimeLen();
+ void getBasicData();/*取得基本配置*/
+ int getTimeLen();/*取得安检时间*/
+ int getRestTimeLen();/*取得安检口休息时间*/
+ void MODIFY_CONFIGURATION();/*修改配置文件*/
+#endif

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QPushButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>480</y>
+     <width>99</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="newPButton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>480</y>
+     <width>99</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>新乘客</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="offButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>480</y>
+     <width>99</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>下班</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rest1Button">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>60</y>
+     <width>99</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>窗口1休息申请</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rest2Button">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>60</y>
+     <width>99</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>窗口2休息申请</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rest3Button">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>110</y>
+     <width>99</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>窗口3休息申请</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rest4Button">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>110</y>
+     <width>99</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>窗口4休息申请</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
